@@ -1,0 +1,151 @@
+									Available Data Products in A1C-SAF-1 Channel: 19 Products    
+#########################################################################################################################################################################
+								1. GLOBAL SEA ICE EMISSIVITY - DMSP
+#########################################################################################################################################################################
+DESCRIPTION: The microwave sea ice surface emissivity for solving the radiative transfer equation for top of the atmosphere up-welling Earth emission.
+STORAGE FOLDER: DMSP_GL
+
+#########################################################################################################################################################################
+								2. GLOBAL SEA ICE EDGE (NETCDF) –MULTIMISSION
+#########################################################################################################################################################################
+DESCRIPTION: This product consists in Metop/AVHRR full resolution (1 km at nadir) sub-skin Sea Surface Temperature granules. Granules are disseminated every 3 minutes 
+through EUMETCast. The product format is compliant with the Data Specification (GDS) version 2 from the Group for High Resolution Sea Surface Temperatures (GHRSST).
+STORAGE FOLDER: GL_OSI
+
+#########################################################################################################################################################################
+								3. ASCAT WINDS AND SOIL MOISTURE AT 25 KM SWATH GRID - METOP
+#########################################################################################################################################################################
+DESCRIPTION: This ASCAT Multi-parameter product contains surface wind vectors over ocean and soil moisture index over land. Additionally, the backscatter values 
+involved in the retrieval of the geophysical parameters above are also included, as well as several quality flags to facilitate the use of the data. For NWP users this 
+product is provided in BUFR format. The netCDF version of this product contains Winds ONLY. For users interested in either ASCAT backscatter, wind or soil moisture 
+index data in other formats, please refer to the relevant product entries available for the specific parameters. Finally, note that although the OSI SAF is identified 
+as the originating centre for this product, it is not responsible for the processing of soil moisture index values, which is currently carried out at EUMETSAT. Better 
+than using this archived NRT product, please use the reprocessed ASCAT winds data records (EO:EUM:DAT:METOP:OSI-150-A, EO:EUM:DAT:METOP:OSI-150-B).
+STORAGE FOLDER: Metop_ OAS025
+
+#########################################################################################################################################################################
+								4. MEDIUM RESOLUTION SEA ICE DRIFT - METOP
+#########################################################################################################################################################################
+DESCRIPTION: Medium Resolution Sea Ice Drift product covers The Northern Hemisphere (NH) above 40 Deg. N. Ice motion vectors with a time span of approximately 24 hours 
+are estimated by a maximum cross-correlation method (MCC) on pairs of satellite images. The ice drift product is based on swath data from the AVHRR instrument onboard 
+the Metop-A satellite. VISible data are used to determine ice motion during summer (MJJA). and Thermal InfraRed data are used from September to April. Valid drift data 
+are only available in cloud free areas, due to cloud opacity of VIS and TIR data.
+STORAGE FOLDER: Metop_ OMRSIDRN
+
+#########################################################################################################################################################################
+								5. FULL RESOLUTION L2P AVHRR SEA SURFACE TEMPERATURE METAGRANULES (GHRSST) - METOP
+#########################################################################################################################################################################
+DESCRIPTION: This product consists in Metop/AVHRR full resolution (1 km at nadir) sub-skin Sea Surface Temperature granules. Granules are disseminated every 3 minutes 
+through EUMETCast. The product format is compliant with the Data Specification (GDS) version 2 from the Group for High Resolution Sea Surface Temperatures (GHRSST).
+STORAGE FOLDER: Metop_MGRSST
+
+#########################################################################################################################################################################
+								6. ASCAT COASTAL WINDS AT 12.5 KM SWATH GRID - METOP
+#########################################################################################################################################################################
+DESCRIPTION: Equivalent neutral 10m winds over the global oceans, with specific sampling to provide as many observations as possible near the coasts. Better than using 
+this archived NRT product, please use the reprocessed ASCAT winds data records (EO:EUM:DAT:METOP:OSI-150-A, EO:EUM:DAT:METOP:OSI-150-B).
+STORAGE FOLDER: Metop_OASWC12
+
+#########################################################################################################################################################################
+								7. GLOBAL L3C AVHRR SEA SURFACE TEMPERATURE (GHRSST) - METOP
+#########################################################################################################################################################################
+DESCRIPTION: Global Metop/AVHRR sub-skin Sea Surface Temperature (GBL SST) is a 12-hourly synthesis on a 0.05° global grid. The product format is compliant with the 
+Data Specification (GDS) version 2 from the Group for High Resolution Sea Surface Temperatures (GHRSST).
+STORAGE FOLDER: Metop_OSSTGLB
+
+#########################################################################################################################################################################
+								8. NORTHERN HIGH LATITUDE L3 SEA AND SEA ICE SURFACE TEMPERATURE - METOP-B
+#########################################################################################################################################################################
+DESCRIPTION: NRT 12 hourly aggregated SST and IST product for northern high latitudes (poleward of 50N). It is based on AVHRR data.
+STORAGE FOLDER: Metop_OSSTIST3A
+
+#########################################################################################################################################################################
+								9. L3C HOURLY SEA SURFACE TEMPERATURE (GHRSST) – MSG
+#########################################################################################################################################################################
+DESCRIPTION: Hourly sub-skin Sea Surface Temperature product derived from Meteosat at 0° longitude, covering 60S-60N and 60W-60E and re-projected on a 0.05° regular 
+grid. The product format is compliant with the Data Specification (GDS) version 2 from the Group for High Resolution Sea Surface Temperatures (GHRSST). This 
+Meteosat-11 based product is available only from 20/02/2018. For data before this date, we advise you to use the2004-2012: L3C hourly Sea Surface Temperature 
+(GHRSST) data record release 1 - MSG which is in the same GHRSST-compliant format2011-2017: L3C hourly Sea Surface Temperature (GRIB) - MSG which is in GRIB format. 
+The same data but in GHRSST-compliant format can be found on the OSI SAF LML FTP server (Ifremer).
+STORAGE FOLDER: MSG_SST
+
+#########################################################################################################################################################################
+								10. L3C HOURLY SEA SURFACE TEMPERATURE (GHRSST) - MSG
+#########################################################################################################################################################################
+DESCRIPTION: Hourly sub-skin Sea Surface Temperature product derived from Meteosat at 0° longitude, covering 60S-60N and 60W-60E and re-projected on a 0.05° regular grid. 
+The product format is compliant with the Data Specification (GDS) version 2 from the Group for High Resolution Sea Surface Temperatures (GHRSST).
+This Meteosat-11 based product is available only from 20/02/2018. For data before this date, we advice you to use the 2004-2012: L3C hourly Sea Surface Temperature 
+(GHRSST) data record release 1 - MSG which is in the same GHRSST-compliant format 2011-2017: L3C hourly Sea Surface Temperature (GRIB) - MSG which is in GRIB format. 
+The same data but in GHRSST-compliant format can be found on the OSI SAF LML FTP server (Ifremer).
+STORAGE FOLDER: MSG_SST_FIELD
+
+#########################################################################################################################################################################
+								11. ATLANTIC HIGH LATITUDE SURFACE SOLAR IRRADIANCE (NETCDF) - MULTIMISSION
+#########################################################################################################################################################################
+DESCRIPTION: Estimation of the daily solar irradiance reaching the Earth surface, derived from AVHRR data on board the polar orbiting satellites from EUMETSAT and NOAA 
+over the Atlantic High Latitudes. The daily value is the integration of all the orbital values in the UT day. The product is remapped onto a 5km polar stereographic 
+grid and expressed in W/m2.
+STORAGE FOLDER: MULT_AHLDLISSI
+
+#########################################################################################################################################################################
+								12. ATLANTIC HIGH LATITUDE SEA SURFACE TEMPERATURE - MULTIMISSION
+#########################################################################################################################################################################
+DESCRIPTION: Calculation of underskin temperature (°C) with multispectral algorithm. The product covers the Atlantic High Latitudes and is delivered twice daily on a 
+5km polar stereographic grid.
+STORAGE FOLDER: MULT_AHLSST
+
+#########################################################################################################################################################################
+								13. GLOBAL AMSR SEA ICE CONCENTRATION - GCOM-W1
+#########################################################################################################################################################################
+DESCRIPTION: The High Latitude Level 3 Global AMSR Sea Ice Concentration consists of these major fields: Sea ice concentration - Indicates the fraction of a given ocean 
+grid point covered by ice. Uncertainties - The algorithm uncertainty, the smearing uncertainty and the resulting total uncertainty of each sea ice concentration grid 
+cell. Confidence level - Based on the daily standard deviation within each grid cell, provided as a guide. This product is complementary to the SSMIS global sea ice 
+concentration product (OSI-401-b).
+STORAGE FOLDER: MULT_AMSR_CONC
+
+#########################################################################################################################################################################
+								14. GLOBAL SEA ICE TYPE (NETCDF) - MULTIMISSION
+#########################################################################################################################################################################
+DESCRIPTION: The Sea Ice Type product is a classification product (multiyear ice/first-year ice) and covers both the Northern Hemisphere (NH) and Southern Hemisphere 
+(SH). The sea ice type is derived from passive microwave and active microwave sensors using a multi sensor methods with a Bayesian approach to combine the different 
+sensors. At present, it is not possible to do an ice type classification during summer from the processed channels. Accordingly, the NH ice type product files 
+distributed between mid-May and 30 September do not contain any valid classification. Similarly, for the SH, at present no ice type classification has been defined and 
+SH product files do not contain valid classification.
+STORAGE FOLDER: MULT_GL
+
+#########################################################################################################################################################################
+								15. L3C NORTH ATLANTIC REGIONAL (NAR) SEA SURFACE TEMPERATURE (GHRSST) -MULTIMISSION
+#########################################################################################################################################################################
+DESCRIPTION: NAR product consists in Metop/AVHRR and SNPP/VIIRS derived sub-skin Sea Surface Temperature over North Atlantic and European Seas at 2 km resolution, four 
+times a day. The product format is compliant with the Data Specification (GDS) version 2 from the Group for High Resolution Sea Surface Temperatures (GHRSST).
+STORAGE FOLDER: MULT_NARSST
+
+#########################################################################################################################################################################
+								16. GLOBAL LOW RESOLUTION SEA ICE DRIFT - MULTIMISSION
+#########################################################################################################################################################################
+DESCRIPTION: Low Resolution Sea Ice Drift product covers both Northern Hemisphere (NH) and Southern Hemisphere (SH), all year round. Ice motion vectors with a time 
+span of 48 hours are estimated by an advanced cross-correlation method (the Continuous MCC, CMCC) from pairs of passive and active microwave satellite images. Several 
+single-sensor products are available, as well as a merged (multi-sensor) product. Maps of uncertainties are embedded in the product files. Due to higher atmospheric 
+wetness and sea ice surface melting, it is more challenging to track ice motion during summer. Accordingly, the NH product files distributed between 1 May and 30 
+September have larger uncertainties and more interpolated vectors. The same holds for the SH product files between 1 November and 30 March.
+STORAGE FOLDER: MULT_OSIDRGB
+
+#########################################################################################################################################################################
+								17. HIGH LATITUDE L2 SEA AND SEA ICE SURFACE TEMPERATURE - NPP
+#########################################################################################################################################################################
+DESCRIPTION: Integrated high latitude Surface Temperature product. The product covers the sea and ice areas polewards of latitudes 50N.
+STORAGE FOLDER: NPP_OSSTIST2B
+
+#########################################################################################################################################################################
+								18. NORTHERN HIGH LATITUDE L3 SEA AND SEA ICE SURFACE TEMPERATURE - NPP
+#########################################################################################################################################################################
+DESCRIPTION: NRT 12 hourly aggregated SST and IST product for northern high latitudes (poleward of 50N). It is based on NPP VIIRS data.
+STORAGE FOLDER: NPP_OSSTIST3B
+
+#########################################################################################################################################################################
+								19. OSCAT WINDS AT 25 KM SWATH GRID - SCATSAT
+#########################################################################################################################################################################
+DESCRIPTION: Stress-equivalent 10m winds over the global oceans obtained from the ScatSat-1 OSCAT scatterometer.
+STORAGE FOLDER: ScatSat_ OSSW025
+
+

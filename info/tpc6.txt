@@ -1,0 +1,159 @@
+ 									Available Data Products in A1C-TPC-6 Channel: 19 Products    
+
+#########################################################################################################################################################################
+								1. CHLOROPHYLL ALPHA (MODIS, MAPPED 4KM) – AQUA
+#########################################################################################################################################################################
+DESCRIPTION: MODIS provides the unprecedented ability to measure chlorophyll fluorescence, which gives insight into the health of phytoplankton in the ocean. When 
+phytoplankton are under stress, they no longer photosynthesize and begin to emit absorbed sunlight as fluorescence. Measurements of the chlorophyll fluorescence can 
+be used to describe the physiological state of the phytoplankton, help to determine the cause of phytoplankton bloom collapses and help to make more robust estimates 
+of primary productivity on a global scale.
+STORAGE FOLDER: AQUA_CHLORA
+
+#########################################################################################################################################################################
+								2. DUST DRY DEPOSITION - NMMB/BSC-DUST MODEL
+#########################################################################################################################################################################
+DESCRIPTION: Forecast of dust dry deposition for lead times between 12 and 72 hours every 6 hours.
+STORAGE FOLDER: DUST_DDD
+
+#########################################################################################################################################################################
+								3. DUST FORECAST - MODEL
+#########################################################################################################################################################################
+DESCRIPTION: 72-hour forecast of different parameters associated with airborne mineral dust. Model: NMMB/BSCDust.
+STORAGE FOLDER: DUST_DF
+
+#########################################################################################################################################################################
+								4. DUST LOAD - NMMB/BSC-DUST MODEL
+#########################################################################################################################################################################
+DESCRIPTION: Forecast of columnar dust load for lead times between 12 and 72 hours every 6 hours.
+STORAGE FOLDER: DUST_DLO
+
+#########################################################################################################################################################################
+								5. DUST OPTICAL DEPTH AT 550 NM - NMMB/BSC-DUST MODEL
+#########################################################################################################################################################################
+DESCRIPTION: Forecast of dust optical depth at 550 nm for lead times between 12 and 72 hours every 6 hours.
+STORAGE FOLDER: DUST_DOD
+
+#########################################################################################################################################################################
+								6. DUST SURFACE CONCENTRATION - NMMB/BSC-DUST MODEL
+#########################################################################################################################################################################
+DESCRIPTION: Forecast of dust surface concentration for lead times between 12 and 72 hours every 6 hours.
+STORAGE FOLDER: DUST_DSC
+
+#########################################################################################################################################################################
+								7. DUST SURFACE EXTINCTION AT 550 NM - NMMB/BSC-DUST MODEL
+#########################################################################################################################################################################
+DESCRIPTION: Forecast of dust optical depth at 550 nm for lead times between 12 and 72 hours every 6 hours.
+STORAGE FOLDER: DUST_DSE
+
+#########################################################################################################################################################################
+								8. DUST WET DEPOSITION - NMMB/BSC-DUST MODEL
+#########################################################################################################################################################################
+DESCRIPTION: Forecast of dust wet deposition for lead times between 12 and 72 hours every 6 hours.
+STORAGE FOLDER: DUST_DWD
+
+#########################################################################################################################################################################
+								9. UG-MESA POTENTIAL FISHING ZONE MAPS
+#########################################################################################################################################################################
+DESCRIPTION: The PFZ chart is developed from a Generalized Additive Model built from a binomial distribution family with a probit link function. Parameters for 
+developing the model were presence- absence data of fish catch data from logbooks and a suite of environmental datasets covering the equatorial Atlantic. The charts 
+are generated daily with surface temperature (SST), sea surface heights (SSH), geostrophic currents (UV) and salinity (SSS) datasets as inputs into the model. The PFZ 
+chart shows the probability of occurrence of pelagic fish in the equatorial Atlantic. The pixel values range from 0% to 100% which indicates the probability of 
+finding the optimal conditions preferred by pelagic fishes.
+STORAGE FOLDER: MESA_UG_PFZ
+
+#########################################################################################################################################################################
+								10. SEA SURFACE SALINITY FORECAST - WEST AFRICA
+#########################################################################################################################################################################
+DESCRIPTION: Forecast maps of sea surface salinity (SAL) are generated by the ECOWAS Coastal and Marine Resources Management Centre from data obtained from the 
+Operational Mercator global Ocean analysis system via the Copernicus programme at a resolution of 1/12 (0.08) degree. Forecasting of ocean weather is done for a 7-day 
+period including a nowcast product for the present day. The forecast products are generated daily with a geographical area coverage of latitude 10 degrees south to 30 
+degrees north and longitude 35 degrees west to 15 degrees east. This covers the coastal and oceanic waters of western Africa. Forecast products are updated daily for 
+the seventh day (number of files per day = 1). Further information about this forecast data can be obtained from www.marine.copernicus.eu.
+STORAGE FOLDER: MESA_UG_SAL
+
+#########################################################################################################################################################################
+								11. SEA SURFACE CURRENTS FORECAST - WEST AFRICA
+#########################################################################################################################################################################
+DESCRIPTION: Forecast maps of sea surface currents (SSC) are generated by the ECOWAS Coastal and Marine Resources Management Centre from data obtained from the 
+Operational Mercator global Ocean analysis system via the Copernicus programme at a resolution of 1/12 (0.08) degree. Forecasting of ocean weather is done for a 7-day 
+period including a nowcast product for the present day. The forecast products are generated daily with a geographical area coverage of latitude 10 degrees south to 30 
+degrees north and longitude 35 degrees west to 15 degrees east. This covers the coastal and oceanic waters of western Africa. Forecast products are updated daily for 
+the seventh day (number of files per day = 1). Further information about this forecast data can be obtained from www.marine.copernicus.eu.
+STORAGE FOLDER: MESA_UG_SSC
+
+#########################################################################################################################################################################
+								12. SEA SURFACE HEIGHTS FORECAST - WEST AFRICA
+#########################################################################################################################################################################
+DESCRIPTION: Forecast maps of sea surface height (SSH), are generated by the ECOWAS Coastal and Marine Resources Management Centre from data obtained from the 
+Operational Mercator global Ocean analysis system via the Copernicus programme at a resolution of 1/12 (0.08) degree. Forecasting of ocean weather is done for a 7-day 
+period including a nowcast product for the present day. The forecast products are generated daily with a geographical area coverage of latitude 10 degrees south to 30 
+degrees north and longitude 35 degrees west to 15 degrees east. This covers the coastal and oceanic waters of western Africa. Forecast products are updated daily for 
+the seventh day (number of files per day = 1). Further information about this forecast data can be obtained from www.marine.copernicus.eu.
+STORAGE FOLDER: MESA_UG_SSH
+
+#########################################################################################################################################################################
+								13. WAVE HEIGHT FORECAST - WEST AFRICA
+#########################################################################################################################################################################
+DESCRIPTION: Charts of wave forecast are generated from operational wave ensemble forecast produced by the National centre for Environmental Prediction (NCEP) of the 
+National Oceanic and Atmospheric Administration (NOAA). The forecast data is produced using global AWIPS grid with a resolution of 0.5 degrees. NCEP wave forecasts 
+products are produced for a 5-day period on hourly bases. Daily average of wave forecasts are however generated for the 5 days from the hourly products by the ECOWAS 
+Coastal and Marine Resources Management Centre. The forecast products are generated daily with a geographical area coverage of latitude 10 degrees south to 30 degrees 
+north and longitude 35 degrees west to 15 degrees east. This covers the coastal and oceanic waters of western Africa. Five (5) files are generated daily for the five 
+forecasts days. Further information about this forecast data can be obtained from http://www.nco.ncep.noaa.gov/pmb/products/wave/.
+STORAGE FOLDER: MESA_UG_SWH
+
+#########################################################################################################################################################################
+								14. SEA SURFACE TEMPERATURE FORECAST - WEST AFRICA
+#########################################################################################################################################################################
+DESCRIPTION: Forecast maps of sea surface temperature (SST) are generated by the ECOWAS Coastal and Marine Resources Management Centre from data obtained from the 
+Operational Mercator global Ocean analysis system via the Copernicus programme at a resolution of 1/12 (0.08) degree. Forecasting of ocean weather is done for a 7-day 
+period including a nowcast product for the present day. The forecast products are generated daily with a geographical area coverage of latitude 10 degrees south to 30 
+degrees north and longitude 35 degrees west to 15 degrees east. This covers the coastal and oceanic waters of western Africa. Forecast products are updated daily for 
+the seventh day (number of files per day = 1). Further information about this forecast data can be obtained from www.marine.copernicus.eu.
+STORAGE FODLER: MESA-UG_SST
+
+#########################################################################################################################################################################
+								15. PHOTOSYNTHETICALLY AVAILABLE RADIATION – MODIS
+#########################################################################################################################################################################
+DESCRIPTION: The algorithm estimates daily average photosynthetically available radiation (PAR) at the ocean surface in Einstein m-2 d-1. PAR is defined as the quantum 
+energy flux from the Sun in the 400-700nm range. For ocean color applications, PAR is a common input used in modeling marine primary productivity.
+STORAGE FOLDER: MODIS_MOD_PAR
+
+#########################################################################################################################################################################
+								16. DIFFUSE ATTENUATION COEFFICIENT FOR DOWNWELLING IRRADIANCE AT 490 NM – MODIS
+#########################################################################################################################################################################
+DESCRIPTION: The algorithm returns the diffuse attenuation coefficient for downwelling irradiance at 490 nm (Kd_490) in m-1, calculated using an empirical relationship 
+derived from in situ measurements of Kd_490 and blue-to-green band ratios of remote sensing reflectances (Rrs).
+STORAGE FOLDER: MODIS_MOD-KD-490
+
+#########################################################################################################################################################################
+								17. LONG-WAVE SEA SURFACE TEMPERATURE – MODIS
+#########################################################################################################################################################################
+DESCRIPTION: NASA standard processing and distribution of the Sea Surface Temperature (SST) products from the MODIS sensors is now performed using software developed by 
+the Ocean Biology Processing Group (OBPG). The OBPG generates Level-2 SST products using the Multi-Sensor Level-1 to Level-2 software (l2gen), which is the same 
+software used to generate MODIS ocean color products. The longwave SST algorithm makes use of MODIS bands 31 and 32 at 11 and 12 nm. The brightness 
+temperatures are derived from the observed radiances by inversion (in linear space) of the radiance versus blackbody temperature relationship. 
+STORAGE FOLDER: MODIS_MOD-SST
+#########################################################################################################################################################################
+								18. RAINFALL ESTIMATE FOR AFRICA – MSG
+#########################################################################################################################################################################
+DESCRIPTION: Dekadal (every 10 days) and monthly rainfall estimates and anomalies derived from Meteosat Thermal Infra-Red (TIR) channels based on the recognition of 
+storm clouds and calibration against ground-based rain gauge data
+STORAGE FOLDER: MSG_RFE
+
+#########################################################################################################################################################################
+								19. IMAGE DATA – LANDSAT
+#########################################################################################################################################################################
+DESCRIPTION: Land application products for Central Africa from OSFAC (Observatoire Satellital des Forêts d'Afrique Centrale). Landsat L1T (terrain corrected) data from 
+the Landsat 7 satellite. The Level 1T (L1T) data product provides systematic radiometric and geometric accuracy by incorporating ground control points, while also 
+employing a Digital Elevation Model (DEM) for topographic accuracy. Geodetic accuracy of the product depends on the accuracy of the ground control points and the 
+resolution of the DEM used. All Landsat 7 scenes collected since May of 2003 have data gaps. Although the scenes have only 78 percent of their pixels, these data are 
+still some of the most geometrically and radiometrically accurate of all civilian satellite data in the world.
+STORAGE FOLDER: UMDL1T
+
+#########################################################################################################################################################################
+								20. WAVE WATCH III PRODUCTS - MODEL - NORTH ATLANTIC OCEAN
+#########################################################################################################################################################################
+DESCRIPTION: Maps of swell (height, period and direction) of the model WAVE WATCH III Version 2.22 until 60 hours of forecasting with 1°*1° of resolution.
+STORAGE FOLDER: WW3NAO
+

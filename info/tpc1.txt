@@ -1,0 +1,41 @@
+										Available Data Products in A1C-TPC-1 Channel: 5 Products    
+
+#########################################################################################################################################################################
+								1. REFINED OCEAN PRODUCTS - AQUA - AMESD REGIONS
+#########################################################################################################################################################################
+DESCRIPTION: These are ocean products for the AMESD regions of the African coastline and are the MODIS 'refined mode' version of the near-real-time (NRT) products 
+already distributed under the AMESD project. The refined mode versions use accurate atmospheric measurements vs. estimates in the NRT and are produced after a week 
+or two delay. Regional data is available for the Indian Ocean: east and north east of Madagascar, Cape Verde, Mozambique, Nigeria, South Somalia (SSomalia) and 
+Tanzania. Can be used free of charge, but may not be (re-)sold. Please acknowledge PML in publications and notify rsg@pml.ac.uk.
+STORAGE FOLDER: AQUA_ROPMAD
+
+#########################################################################################################################################################################
+								2. COMPOSITE OCEAN PRODUCTS - MULTIMISSION - AMESD REGIONS
+#########################################################################################################################################################################
+DESCRIPTION: These products are 3-day composites of the MODIS near-real-time ocean products. These are combined versions of all satellite passes over an area within the 
+compositing period. Part of the EAMNET and AMESD projects. Regional data is available for east and north east of Madagascar, Cape Verde, Mozambique, Nigeria, South 
+Somalia (SSomalia) and Tanzania. Can be used free of charge, but may not be (re-)sold. Please acknowledge PML in publications and notify rsg@pml.ac.uk.
+STORAGE FOLDER: MODIS_CPMAD
+
+#########################################################################################################################################################################
+								3. OCEAN COLOUR PRODUCTS - MODIS – AQUA
+#########################################################################################################################################################################
+DESCRIPTION: MODIS Aqua SST and Ocean Colour products. Daily at 1 km resolution, OC3v6 default products: Chlorophyll-A, Kd490, fluorescence line height. Regional data 
+available for Angola, Ivory Coast, South Africa (East), Guinea, Namibia, Somalia (North), Senegal, South Africa (South), Tanzania or South Africa (West).
+STORAGE FOLDER: MODIS_OCPUCT
+
+#########################################################################################################################################################################
+								4. NEAR REAL-TIME OCEAN PRODUCTS - MULTIMISSION - AMESD REGIONS
+#########################################################################################################################################################################
+DESCRIPTION: Near real-time (NRT) products from NASA's MODIS (Aqua) sensor, including chlorophyll-a, sea surface temperature, K490 (turbidity) and water leaving 
+radiances. Part of the EAMNET and AMESD projects. Regional data is available for east and north east of Madagascar, Cape Verde, Mozambique, Nigeria, South Somalia 
+(SSomalia) and Tanzania. Can be used free of charge, but may not be (re-)sold. Please acknowledge PML in publications and notify rsg@pml.ac.uk.
+STORAGE FOLDER: MULT_NRTOMAD
+
+#########################################################################################################################################################################
+								5. NEAR REAL-TIME OCEAN PRODUCTS - MULTIMISSION – AFRICA
+#########################################################################################################################################################################
+DESCRIPTION: Mapped ocean data products from NASA's MODIS (Aqua) sensor, including chlorophyll-a, sea surface temperature, K490 (turbidity) and water leaving 
+radiances. Regional data available for Algeria, Egypt, Ghana, Libya, Mozambique, Morocco (North), Red Sea, Sierra Leone, or Morocco (South). Part of the EAMNET and 
+AMESD projects. Can be used free of charge, but may not be (re-)sold. Please acknowledge PML in publications and notify rsg@pml.ac.uk.
+STORAGE FOLDER: MULT_NRTOMAD

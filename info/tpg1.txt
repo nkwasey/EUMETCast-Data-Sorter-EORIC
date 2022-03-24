@@ -1,0 +1,198 @@
+									Available Data Products in A1C-TPG-1 Channel: 31 Products    
+
+#########################################################################################################################################################################
+								1. ATMOSPHERIC MOTION VECTORS IR1 AND IR3 - FENG-YUN - 2G
+#########################################################################################################################################################################
+DESCRIPTION: Atmospheric motion vectors (AMVs) are a valuable observation type for providing dynamical information for forecast models. They are produced by tracking 
+clouds or gradients in water vapour through successive satellite images. AMVs have been assimilated in forecast models since the 1980s. Traditionally they are generated 
+using imagery from geostationary satellites, which monitor a constant region of the Earth. AMVs are produced at several centres including EUMETSAT in Europe, NESDIS in 
+the USA, JMA in Japan, CMA in China and IMD in India.
+STORAGE FOLDER: FY2G_AMV
+
+#########################################################################################################################################################################
+								2. CLOUD CLASSIFICATION PRODUCT - FENG-YUN - 2G
+#########################################################################################################################################################################
+DESCRIPTION: Cloud Classification Product.
+STORAGE FOLDER: FY2G_CLT
+
+#########################################################################################################################################################################
+								3. TOTAL CLOUD AMOUNT PRODUCT - FENG-YUN - 2G
+#########################################################################################################################################################################
+DESCRIPTION: Total Cloud Amount Product.
+STORAGE FOLDER: FY2G_CTA
+
+#########################################################################################################################################################################
+								4. HUMIDITY PRODUCT ANALYSED BY CLOUD INFORMATION - FENG-YUN - 2G
+#########################################################################################################################################################################
+DESCRIPTION: Humidity product analysed by cloud information Product.
+STORAGE FOLDER: FY2G_HPF
+
+#########################################################################################################################################################################
+								5. OUTGOING LONGWAVE RADIATION PRODUCT - FENG-YUN - 2G
+#########################################################################################################################################################################
+DESCRIPTION: Outgoing Longwave Radiation Product - 3 hours; 5, 10 and 30 days.
+STORAGE FOLDER: FY2G_OLR
+
+#########################################################################################################################################################################
+								6. PRECIPITATION ESTIMATION PRODUCT - 6 & 24 HOURS - FENG-YUN - 2G
+#########################################################################################################################################################################
+DESCRIPTION: Precipitation estimation product - 6 and 24 hours.
+STORAGE FOLDER: FY2G_PRE
+#########################################################################################################################################################################
+								7. SURFACE SOLAR IRRADIANCE PRODUCT - FENG-YUN - 2G
+#########################################################################################################################################################################
+DESCRIPTION: Surface Solar Irradiance Product.
+STORAGE FOLDER: FY2G_SSI
+
+#########################################################################################################################################################################
+								8. BLACKBODY BRIGHTNESS TEMPERATURE - FENG-YUN - 2G
+#########################################################################################################################################################################
+DESCRIPTION: Blackbody brightness temperature products are disseminated on an hourly, daily, 5-day, 10-day and 30-day basis
+STORAGE FOLDER: FY2G_TBB
+
+#########################################################################################################################################################################
+								9. TOTAL PRECIPITABLE WATER PRODUCT - FENG-YUN - 2G
+#########################################################################################################################################################################
+DESCRIPTION: Total Precipitable Water Product.
+STORAGE FOLDER: FY2G_TPW
+
+#########################################################################################################################################################################
+								10. SNOW FRACTION PRODUCT - FENG-YUN - 2G
+#########################################################################################################################################################################
+DESCRIPTION: Snow Fraction Product for FengYun 2G.
+STORAGE FOLDER: FY2G_TSG
+
+#########################################################################################################################################################################
+								11. NORMALIZED GEOSTATIONARY PROJECTION DATASET - FENG-YUN - 2G
+#########################################################################################################################################################################
+DESCRIPTION: Full disk images from the Chinese satellite FengYun 2G.
+STORAGE FOLDER: FY2G_FDI
+
+#########################################################################################################################################################################
+								12. ATMOSPHERIC MOTION VECTORS IR1 AND IR3 - FENG-YUN - 2H
+#########################################################################################################################################################################
+DESCRIPTION: Atmospheric motion vectors (AMVs) are a valuable observation type for providing dynamical information for forecast models. They are produced by tracking 
+clouds or gradients in water vapour through successive satellite images. AMVs have been assimilated in forecast models since the 1980s. Traditionally they are generated 
+using imagery from geostationary satellites, which monitor a constant region of the Earth. AMVs are produced at several centres including EUMETSAT in Europe, NESDIS in 
+the USA, JMA in Japan, CMA in China and IMD in India.
+STORAGE FOLDER: FY2H_AMV
+
+#########################################################################################################################################################################
+								13. CLOUD CLASSIFICATION PRODUCT - FENG-YUN - 2H
+#########################################################################################################################################################################
+DESCRIPTION: Cloud Classification Product.
+STORAGE FOLDER: FY2H_CLT
+
+#########################################################################################################################################################################
+								14. TOTAL CLOUD AMOUNT PRODUCT - FENG-YUN - 2H
+#########################################################################################################################################################################
+DESCRIPTION: Total Cloud Amount Product.
+STORAGE FOLDER: FY2H_CTA
+
+#########################################################################################################################################################################
+								15. HUMIDITY PRODUCT ANALYSED BY CLOUD INFORMATION - FENG-YUN - 2H
+#########################################################################################################################################################################
+DESCRIPTION: Humidity product analysed by cloud information Product.
+STORAGE FOLDER: FY2H_HPF
+
+#########################################################################################################################################################################
+								16. OUTGOING LONGWAVE RADIATION PRODUCT - FENG-YUN - 2H
+#########################################################################################################################################################################
+DESCRIPTION: Outgoing Longwave Radiation Product - 3 hours; 5, 10 and 30 days.
+STORAGE FOLDER: FY2H_OLR
+
+#########################################################################################################################################################################
+								17. PRECIPITATION ESTIMATION PRODUCT - 6 & 24 HOURS - FENG-YUN - 2H
+#########################################################################################################################################################################
+DESCRIPTION: Precipitation estimation product - 6 and 24 hours.
+STORAGE FOLDER: FY2H_PRE
+#########################################################################################################################################################################
+								18. SURFACE SOLAR IRRADIANCE PRODUCT - FENG-YUN - 2H
+#########################################################################################################################################################################
+DESCRIPTION: Surface Solar Irradiance Product.
+STORAGE FOLDER: FY2H_SSI
+
+#########################################################################################################################################################################
+								19. BLACKBODY BRIGHTNESS TEMPERATURE - FENG-YUN - 2H
+#########################################################################################################################################################################
+DESCRIPTION: Blackbody brightness temperature products are disseminated on an hourly, daily, 5-day, 10-day and 30-day basis
+STORAGE FOLDER: FY2H_TBB
+
+#########################################################################################################################################################################
+								20. TOTAL PRECIPITABLE WATER PRODUCT - FENG-YUN - 2H
+#########################################################################################################################################################################
+DESCRIPTION: Total Precipitable Water Product.
+STORAGE FOLDER: FY2H_TPW
+
+#########################################################################################################################################################################
+								21. SNOW FRACTION PRODUCT - FENG-YUN - 2H
+#########################################################################################################################################################################
+DESCRIPTION: Snow Fraction Product for FengYun 2H.
+STORAGE FOLDER: FY2H_TSG
+
+#########################################################################################################################################################################
+								22. NORMALIZED GEOSTATIONARY PROJECTION DATASET - FENG-YUN - 2H
+#########################################################################################################################################################################
+DESCRIPTION: Full disk images from the Chinese satellite FengYun 2H.
+STORAGE FOLDER: FY2H_FDI
+
+#########################################################################################################################################################################
+								23. QUANTITATIVE PRECIPITATION ESTIMATION (GOES PRECIPITATION INDEX) - INSAT-3D
+#########################################################################################################################################################################
+DESCRIPTION: Rainfall from INSAT-3D Imager channels is derived based on two methodologies: (i) Rainfall Estimation by GOES Precipitation Index (GPI) (ii) INSAT 
+Multispectral Rainfall Algorithm.
+STORAGE FOLDER: INSAT3D_GPI
+
+#########################################################################################################################################################################
+								24. HYDRO ESTIMATOR PRECIPITATION - INSAT-3D
+#########################################################################################################################################################################
+DESCRIPTION: This product is derived on the basis of Hydro-Estimator method. It measures precipitation over Indian Region encompassing the area between longitudes 30°E 
+-to130°E and latitudes 50°N - 50°S.
+STORAGE FOLDER: INSAT3D_HEM
+
+#########################################################################################################################################################################
+								25. RAIN RATE (INSAT MULTI-SPECTRAL RAINFALL) - INSAT-3D
+#########################################################################################################################################################################
+DESCRIPTION: Indian Multi Spectral rainfall from IMAGER.
+STORAGE FOLDER: INSAT3D_IMR
+
+#########################################################################################################################################################################
+								26. CLOUD MOTION VECTORS (INFRA-RED WIND) - INSAT-3D
+#########################################################################################################################################################################
+DESCRIPTION: Cloud Classification Product.
+STORAGE FOLDER: INSAT3D_IRW
+
+#########################################################################################################################################################################
+								27. OUTGOING LONGWAVE RADIATION - INSAT-3D
+#########################################################################################################################################################################
+DESCRIPTION: Total outgoing longwave radiation (OLR) flux, thermally emitted from earth atmosphere system, is estimated by applying regression equation relating OLR flux 
+with INSAT-3D Imager observed WV and thermal infrared radiances. The coefficients of the regression equations are determined from results of the Radiative Transfer
+Model simulation with various atmospheric conditions.
+STORAGE FOLDER: INSAT3D_OLR
+
+#########################################################################################################################################################################
+								28. HUMIDITY AND TEMPERATURE PROFILES, OVER INDIAN REGION (A1) AND INDIAN OCEAN (A2) - INSAT-3D
+#########################################################################################################################################################################
+DESCRIPTION: Sounder Level2 data for A1 and A2 sectors.
+STORAGE FOLDER: INSAT3D_SND
+
+#########################################################################################################################################################################
+								29. SEA SURFACE TEMPERATURE - INSAT-3D
+#########################################################################################################################################################################
+DESCRIPTION: Sea surface temperature is derived from split thermal window channels (TIR1, TIR2) during daytime and using additional mid IR window channel (MIR) during 
+night time over cloud free oceanic regions. The most important part of the SST retrieval from IR observations is the atmospheric correction, especially over tropics. 
+This correction is determined through a suitable characterization of tropical atmospheres in radiative transfer model to simulate the brightness temperatures of 
+INSAT-3D channels.
+STORAGE FOLDER: INSAT3D_SST
+
+#########################################################################################################################################################################
+								30. UPPER TROPOSPHERIC HUMIDITY - INSAT-3D
+#########################################################################################################################################################################
+DESCRIPTION: Upper Tropospheric Humidity from IMAGER.
+STORAGE FOLDER: INSAT3D_UTH
+
+#########################################################################################################################################################################
+								31. WATER VAPOUR WINDS - INSAT-3D
+#########################################################################################################################################################################
+DESCRIPTION: Water vapour derived wind vectors.
+STORAGE FOLDER: INSAT3D_WVW

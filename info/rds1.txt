@@ -1,0 +1,21 @@
+									Available Data Products in A1C-RDS-1 Channel: 2 Products    
+#########################################################################################################################################################################
+								1. ASCAT COASTAL WINDS AT 12.5 KM - METOP - REGIONAL DATA SERVICE
+#########################################################################################################################################################################
+DESCRIPTION: Equivalent neutral 10m winds over the global oceans, with specific sampling to provide as many observations as possible near the coasts. The data is 
+acquired from the EUMETSAT Advanced Retransmission Service (EARS) network of Direct Readout stations. Additionally, from Metop-A the last 30 minutes of ASCAT data in 
+the main Svalbard data dump are processed. All data are processed jointly by the EARS ground system and the Koningklijk Nederland’s Meteorologisch Instituut (KNMI) 
+within 45 minutes. This product is intended for assimilation in Regional Numerical Weather prediction models, where high timeliness is very important in order to 
+address the short model cut-off times.
+STORAGE FOLDER: Metop_ASCAT_CW
+
+#########################################################################################################################################################################
+								2. ASCAT OCEAN SURFACE WINDS AT 25 KM NODE GRID - METOP - REGIONAL DATA SERVICE
+#########################################################################################################################################################################
+DESCRIPTION: The ASCAT Wind Product contains measurements of the wind direction and wind speed at 10 m above the sea surface. The measurements are obtained through 
+the processing of scatterometer data originating from the ASCAT instrument on EUMETSAT's Metop satellite, as described in the ASCAT Wind Product User Manual. In the 
+context of this regional service, the data is acquired both from the last 30 minutes of the ASCAT. Metop main Svalbard dump, as well as from the EUMETSAT Advanced 
+Retransmission Service (EARS) network of Direct Readout stations in Europe and the middle East. All data are processed jointly by the EARS ground system and the 
+Koningklijk Nederlands Meteorologisch Instituut (KNMI) within 45 minutes. This product is intended for assimilation in Regional Numerical Weather prediction models, 
+where high timeliness is very important in order to address the short model cut-off times.
+STORAGE FOLDER: Metop_ASCAT_OSW

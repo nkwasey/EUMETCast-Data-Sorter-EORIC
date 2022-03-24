@@ -1,0 +1,59 @@
+									Available Data Products in A1C-TPC-5 Channel: 6 Products    
+
+#########################################################################################################################################################################
+								1. SOIL WATER INDEX - METOP – AFRICA
+#########################################################################################################################################################################
+DESCRIPTION: The Soil Water index (SWI) product provides continental daily information about moisture conditions in different soil layers. SWI daily images are produced 
+from EUMETSAT ASCAT-25km SSM product in orbit format and include a quality flag indicating the availability of SSM measurements for SWI calculations. Soil moisture is a 
+key parameter in numerous environmental studies including hydrology, meteorology and agriculture. In addition to Surface Soil Moisture (SSM), information on the moisture 
+condition within the underlying soil profile is of interest for different applications. Soil moisture in plant root zone can be estimated by an infiltration model using 
+information on surface soil moisture and soil characteristics.
+STORAGE FOLDER: Metop_SWI
+  
+
+#########################################################################################################################################################################
+								2. BURNT AREA - PROBA-V – AFRICA
+#########################################################################################################################################################################
+DESCRIPTION: BA or Burnt Area products include information on the first date of burn area since the start of the fire season (1st April), as stored in the so-called BA-
+DAY dataset, and on the temporal pattern of the fire activity. The input data are daily surface reflectances of PROBA-V VEGETATION sensor. The burnt areas are surfaces 
+which have been sufficiently affected by fire to display significant changes in the vegetation cover (destruction of dry material, reduction or loss of green material) 
+and in the ground surface (temporarily darker because of ash). As fire can occur in any type of environmental context, the properties of the burnt surface may differ 
+significantly from place to place. Therefore, their identification is based on a combination of surface's properties and change detection, i.e. differences in spectral 
+properties before and after the fire occurrence, following refined L3JRC/GBA2000 methods. The BA product is generated every 10 days over Africa as part of the Geoland2 
+BioPar core mapping service. 
+STORAGE FOLDER: PROBA_V_BA
+
+#########################################################################################################################################################################
+								3. NORMALISED DIFFERENCE VEGETATION INDEX (NDVI) – SENTINEL-3 – AFRICA
+#########################################################################################################################################################################
+DESCRIPTION: A ratio of the intensity of light reflected off the Earth's surface in the visible and near-infrared spectral wavelengths, which quantifies the 
+photosynthetic capacity of the vegetation in a given pixel of land surface. The input reflectances are corrected for cloud and snow, geometry, atmospheric perturbations 
+and directional effects. From the available global product, this product is a geographic subset over Africa. Access to Copernicus Land Service products is free and open 
+to all users. 
+STORAGE FOLDER: NDVIA
+
+#########################################################################################################################################################################
+								4. WATER BODIES V1 - PROBA-V – AFRICA
+#########################################################################################################################################################################
+DESCRIPTION: Version 1 of Water bodies describes the state of small ponds in dry regions. The Global Vegetation Monitoring Unit of JRC has developed a method to map and 
+monitor small inland water bodies in arid regions using low resolution satellite imagery from the VEGETATION instrument. Although this instrument provides images of the 
+Earth with a 1-km resolution, it was demonstrated that it is sufficient to accurately map and monitor the presence of water in natural and artificial ponds and swamps 
+of about 1 sq km in size. The accuracy obtained is in the order of 90%, i. e. 90% of the water bodies detected with the method over an area of 1 million 1 sq km were 
+found to be correct. 
+STORAGE FOLDER: PROBA_V_SWB
+
+#########################################################################################################################################################################
+								5. VEGETATION CONDITION INDEX - PROBA-V – AFRICA
+#########################################################################################################################################################################
+DESCRIPTION: The Vegetation Condition Indicator (VCI) is a categorical type of difference vegetation index. The VCI compares the observed NDVI to the range of values 
+observed in the same period in previous years. The VCI is expressed in % and gives an idea where the observed value is situated between the extreme values (minimum and 
+maximum) in the previous years. Lower and higher values indicate bad and good vegetation state conditions, respectively. 
+STORAGE FOLDER: PROBA_V_VCI
+
+#########################################################################################################################################################################
+								6. WATER BODIES V2 - PROBA-V - SOUTH AMERICA
+#########################################################################################################################################################################
+DESCRIPTION: Version 2 of Water bodies (WB) is a 10-day synthesis product that detects inland water bodies across the globe by calculating 10-daily Mean Composites from 
+daily Top-Of-Canopy reflectance inputs, performing a colorimetric transformation from RGB to HSV colour space and applying different thresholds for the Hue and Value 
+component. 
+STORAGE FOLDER: PROBA_V_SWB

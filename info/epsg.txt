@@ -1,0 +1,33 @@
+									Available Data Products in A1C-EPS-G Channel: 3 Products    
+
+#########################################################################################################################################################################
+							1. ASCAT SOIL MOISTURE AT 12.5 KM SWATH GRID IN NRT - METOP
+#########################################################################################################################################################################
+DESCRIPTION: The Soil Moisture (SM) product is derived from the Advanced SCATterometer (ASCAT) backscatter observations and given in swath orbit geometry 
+(25 km sampling). This SM product provides an estimate of the water content of the 0-5 cm topsoil layer, expressed in degree of saturation between 0 and 100 [%]. 
+The algorithm used to derive this parameter is based on a linear relationship of SM and scatterometer backscatter and uses change detection techniques to eliminate 
+the contributions of vegetation, land cover and surface topography, considered invariant from year to year. Seasonal vegetation effects are modelled by exploiting 
+the multi-angle viewing capabilities of ASCAT. The SM processor has been developed by Vienna University of Technology (TU Wien). Note that some of the data are 
+reprocessed. Please refer to the associated product validation reports or product release notes for further information.
+STORAGE FOLDER: ASCAT_SSM_125
+
+
+#########################################################################################################################################################################
+							2. ASCAT SOIL MOISTURE AT 25 KM SWATH GRID IN NRT - METOP
+#########################################################################################################################################################################
+DESCRIPTION: The Soil Moisture (SM) product is derived from the Advanced SCATterometer (ASCAT) backscatter observations and given in swath orbit geometry
+(25 km sampling).This SM product provides an estimate of the water content of the 0-5 cm topsoil layer, expressed in degree of saturation between 0 and 100 [%]. 
+The algorithm used to derive this parameter is based on a linear relationship of SM and scatterometer backscatter and uses change detection techniques to eliminate 
+the contributions of vegetation, land cover and surface topography, considered invariant from year to year. Seasonal vegetation effects are modelled by exploiting 
+the multi-angle viewing capabilities of ASCAT. The SM processor has been developed by Vienna University of Technology (TU Wien). Note that some of the data are 
+reprocessed. Please refer to the associated product validation reports or product release notes for further information.
+STORAGE FOLDER: ASCAT_SSM_250
+
+#########################################################################################################################################################################
+									3. ATOVS SOUNDING PRODUCTS - NOAA
+#########################################################################################################################################################################
+DESCRIPTION: The Advanced TIROS Operational Sounder (ATOVS), in combination with the Advanced Very High-Resolution Radiometer (AVHRR), covers the visible, infrared and 
+microwave spectral regions and thus has a wide range of applications: supplementing the retrieval of vertical temperature and humidity profiles, cloud and precipitation 
+monitoring, sea ice and snow cover detection as well as surface temperature determination. ATOVS is composed of the Advanced Microwave Sounding Unit A, the Microwave 
+Humidity Sounder (MHS) and the High-Resolution Infrared Radiation Sounder (HIRS/4).
+STORAGE FOLDER: NOAA_ATOVS

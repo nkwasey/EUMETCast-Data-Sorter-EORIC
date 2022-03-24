@@ -1,0 +1,128 @@
+									Available Data Products in A1C-GEO-4 Channel: 16 Products    
+#########################################################################################################################################################################
+								1. ATMOSPHERIC MOTION VECTORS - MSG - 0 DEGREE
+#########################################################################################################################################################################
+DESCRIPTION: Atmospheric Motion Vectors at all heights below the tropopause, derived from 5 channels (Visual 0.8, Water Vapor 6.2, Water Vapor 7.3, Infrared 10.8 and 
+the High-Resolution Visual channel), all combined into one product. Vectors are derived by tracking the motion of clouds and other atmospheric constituents as water 
+vapor patterns. The initial resolution is a 24 pixels grid (HRV 12 high res. pixels), but as the algorithm tries to adjust the position to the point of the maximum 
+contrast (typically cloud edges), the end resolution varies. The height assignment of the AMVs is calculated using the Cross-Correlation Contribution (CCC) function 
+to determine the pixels that contribute the most to the vectors. An AMV product contains between 30 000 and 50 000 vectors depending of the time of the day, and uses 
+SEVERI image data from Meteosat-8 and onwards
+STORAGE FOLDER: MSG_AMV
+
+#########################################################################################################################################################################
+								2. ALL-SKY RADIANCE – MSG – 0 DEGREE
+#########################################################################################################################################################################
+DESCRIPTION: The All-Sky Radiances (ASR) product contains information on mean brightness temperatures from all thermal (e.g., infrared and water vapor) channels. It 
+includes both clear and cloudy sky brightness temperatures. Applications and Users: Numerical weather prediction.
+STORAGE FOLDER: MSG_ASR
+
+#########################################################################################################################################################################
+								3. CONVECTIVE RAIN RATE - MSG - 0 DEGREE
+#########################################################################################################################################################################
+DESCRIPTION: The Convective Rain Rate product is a geostationary meteorological product for nowcasting applications. It is produced with NWC-SAF Geo 2016 software 
+package.
+STORAGE FOLDER: MSG_CRR
+
+#########################################################################################################################################################################
+								4. GEOSTATIONARY NOWCASTING CLOUD TYPE - MSG - 0 DEGREE
+#########################################################################################################################################################################
+DESCRIPTION: Cloud classification produced with NWC-SAF Geo software package, PGE02.
+STORAGE FOLDER: MSG_CCT
+
+#########################################################################################################################################################################
+								5. CLOUD MASK - MSG - 0 DEGREE
+#########################################################################################################################################################################
+DESCRIPTION: The Cloud Mask product describes the scene type (either 'clear' or 'cloudy') on a pixel level. Each pixel is classified as one of the following four types: 
+clear sky over water, clear sky over land, cloud, or not processed (off Earth disc). Applications & Uses: The main use is in support of Nowcasting applications, 
+where it frequently serves as a basis for other cloud products, and the remote sensing of continental and ocean surfaces.
+STORAGE FOLDER: MSG_CLM
+
+#########################################################################################################################################################################
+								6. GEOSTATIONARY NOWCASTING CLOUD MASK - MSG - 0 DEGREE
+#########################################################################################################################################################################
+DESCRIPTION: Cloud mask including dust flag and volcanic ash flag produced with NWC-SAF Geo software package.
+STORAGE FOLDER: MSG_CMa
+
+#########################################################################################################################################################################
+								7. CLEAR SKY REFLECTANCE MAP - MSG – 0 DEGREE
+#########################################################################################################################################################################
+DESCRIPTION: Reflectances from the four MSG solar channels. Seven-day average of cloud-free pixels in the 12:00 UTC images. Applications and Users: Used to perform cloud 
+masking with visible channels. Also, information source for climate and land surface applications. The product is available on request only. In addition to the daily 
+12:00 UTC images, the Data Centre offers also some products generated at different times of day. These 6 additional products are provided once a week (Wednesdays) in 
+the time range between 06:00 and 18:00 UTC.
+STORAGE FOLDER: MSG_CRM
+
+#########################################################################################################################################################################
+								8. CLEAR SKY RADIANCES - MSG - 0 DEGREE
+#########################################################################################################################################################################
+DESCRIPTION: The Clear-Sky Radiances (CSR) product is a subset of the information derived during the Scenes Analysis processing. The product provides the brightness 
+temperature for a subset of the MSG channels averaged over all pixels within a processing segment which have been identified as clear, except for channel WV6.2 
+where the CSR is also derived for areas containing low-level clouds. The final CSR product is BUFR encoded at every third quarter of the hour (e.g., 00:45, 01:45 ...) 
+and distributed to the users via EUMETCAST and GTS. It is also stored in the EUMETSAT Data Centre. Applications and Users: Numerical weather prediction.
+STORAGE FOLDER: MSG_CSR
+
+#########################################################################################################################################################################
+								9. CLOUD TOP HEIGHT - MSG - 0 DEGREE
+#########################################################################################################################################################################
+DESCRIPTION: The product indicates the height of highest cloud. Based on a subset of the information derived during Scenes and Cloud Analysis, but also makes use of 
+other external meteorological data. Applications and Users: Aviation meteorology.
+STORAGE FOLDER: MSG_CTH
+
+#########################################################################################################################################################################
+								10. GEOSTATIONARY NOWCASTING CLOUD TOP TEMPERATURE AND HEIGHT - MSG - 0 DEGREE
+#########################################################################################################################################################################
+DESCRIPTION: Cloud mask including dust flag and volcanic ash flag produced with NWC-SAF Geo software package.
+STORAGE FOLDER: MSG_CTTH
+
+#########################################################################################################################################################################
+								11. ACTIVE FIRE MONITORING (CAP) - MSG - 0 DEGREE
+#########################################################################################################################################################################
+DESCRIPTION: The active fire monitoring product is a fire detection product indicating the presence of fire within a pixel. The underlying concept of the algorithm 
+takes advantage of the fact that SEVIRI channel IR3.9 is very sensitive to hot spots which are caused by fires. The algorithm distinguishes between potential fire 
+and active fire. Applications and Users: Fire detection and monitoring. This product is available in CAP (Common Alert Protocol) format. The CAP formatted product 
+is only disseminated when a fire/potential fire is detected in any given repeat cycle.
+STORAGE FOLDER: MSG_FIRC
+
+#########################################################################################################################################################################
+								12. ACTIVE FIRE MONITORING (GRIB) - MSG - 0 DEGREE
+#########################################################################################################################################################################
+DESCRIPTION: The active fire monitoring product is a fire detection product indicating the presence of fire within a pixel. The underlying concept of the algorithm 
+takes advantage of the fact that SEVIRI channel IR3.9 is very sensitive to hot spots which are caused by fires. The algorithm distinguishes between potential fire and 
+active fire. Applications and Users: Fire detection and monitoring.
+STORAGE FOLDER: MSG_FIRG
+
+#########################################################################################################################################################################
+								13. GLOBAL INSTABILITY INDEX - MSG - 0 DEGREE
+#########################################################################################################################################################################
+DESCRIPTION: Atmospheric air mass instability in cloud free areas. The product contains several stability parameters as well as information about the precipitable water
+contents of the atmosphere. For more information on the parameters and algorithms refer to the product guide in the resources. The algorithm is a physical retrieval 
+scheme developed at EUMETSAT. Applications and Users: Nowcasting and short-term forecasting (up to 12 hours). Resolution is 3x3 pixels.
+STORAGE FOLDER: MSG_GII
+
+#########################################################################################################################################################################
+								14. RAPIDLY DEVELOPING THUNDERSTORMS - MSG - 0 DEGREE
+#########################################################################################################################################################################
+DESCRIPTION: Rapidly Developing Thunderstorms - Convection Warning product is a geostationary meteorological product for nowcasting applications. It is produced with 
+the NWC-SAF Geo 2016 software package.
+STORAGE FOLDER: MSG_RDT
+
+#########################################################################################################################################################################
+								15. VOLCANIC ASH DETECTION (CAP) - MSG - 0 DEGREE
+#########################################################################################################################################################################
+DESCRIPTION: The ash detection is based on a reversed split window technique, supported by tests in the other IR channels and two VIS channels. The CAP formatted product
+ provides an area defined by a polygon containing the ash mass loading as main parameter. The generation and dissemination shall only be activated after the reception 
+of an alert from the VAAC-London. Applications & Users: Support to ash monitoring, aviation. Current users are the Volcanic Ash Advisory Centre and Member States 
+National Meteorological Services (NMS). Used input data include: the reflectances in the VIS0.6 and the IR3.9 channels; the brightness temperatures in the IR3.9, 
+IR8.7, IR10.8 and IR12:0 channels and the solar zenith angle on pixel level.
+STORAGE FOLDER: MSG_VOLC
+
+#########################################################################################################################################################################
+								16. VOLCANIC ASH DETECTION (NETCDF) - MSG - 0 DEGREE
+#########################################################################################################################################################################
+DESCRIPTION: The ash detection is based on a reversed split window technique, supported by tests in the other IR channels and two VIS channels. The product is 
+disseminated in netCDF classic format, that contains as main parameters the ash mass loading and the mean ash particle size. Note that the netCDF 
+files have been compressed with bzip2 and before uncompressing them, the 103 bytes LRIT header must first be removed After decompression, any reader 
+compatible with netCDF classic format (also known as netCDF-3), written with netCDF library version 4.1.1, can be used to read the data. The 
+navigation data is not supplied within the netCDF product but can be found in the online resources
+STORAGE FOLDER: MSG_VOLE
